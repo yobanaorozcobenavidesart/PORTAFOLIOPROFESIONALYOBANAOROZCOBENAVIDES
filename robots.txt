@@ -1,26 +1,17 @@
-# Portafolio de Yobana Orozco Benavides
-# Se permite a buscadores y a asistentes de IA leer y citar el sitio.
 User-agent: *
 Allow: /
 
-# Buscadores de IA y asistentes (respuestas con cita)
+User-agent: GPTBot
+Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 User-agent: ChatGPT-User
 Allow: /
-User-agent: PerplexityBot
-Allow: /
-User-agent: Perplexity-User
+User-agent: ClaudeBot
 Allow: /
 User-agent: Claude-SearchBot
 Allow: /
-User-agent: Claude-User
-Allow: /
-
-# Rastreadores de entrenamiento de modelos
-User-agent: GPTBot
-Allow: /
-User-agent: ClaudeBot
+User-agent: PerplexityBot
 Allow: /
 User-agent: Google-Extended
 Allow: /
